@@ -61,7 +61,7 @@ export const Blog = () => {
       <h1>My Blog</h1>
       {/* Adding new post Modal */}
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Adding new Post:</Modal.Title>
         </Modal.Header>
         <Modal.Body>

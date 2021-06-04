@@ -22,7 +22,7 @@ export const BlogList = ({ post }) => {
   return (
     <div>
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Update a Post:</Modal.Title>
         </Modal.Header>
         <Modal.Body>
